@@ -42,8 +42,26 @@
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:stretchColumns="*"
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EmpID/StuID"
+            style="@style/style_box"
+            />
+
+        <TextView
+            android:id="@+id/textViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-----"
+            style="@style/style_box"
+            />
+
+
+            />
 
         <TableRow
             android:layout_width="match_parent"
